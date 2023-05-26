@@ -1,7 +1,17 @@
-<a href="#home" routerLink="/" class="active">Home</a>
-<a href="#contact" routerLink="/contact">Contact</a>
-<a href="#about" routerLink="/about">About</a>
+<div class="navigation">
+  <ul>
+    <li>
+      <a href="#home" routerLink="/" class="navigation-link" routerLinkActive="navigation__link--active">Home</a>
+    </li>
+    <li>
+      <a href="#about" routerLink="/about" class="navigation-link" routerLinkActive="navigation__link--active">About</a>
+    </li>
+    <li>
+      <a href="#contact" routerLink="/contact" class="navigation-link" routerLinkActive="navigation__link--active">Contact</a>
+    </li>
+  </ul>
+</div>
 
-<div style="text-align: center; font-weight: bold; font-size: 20px">
+<div class="content">
   <router-outlet></router-outlet>
 </div>

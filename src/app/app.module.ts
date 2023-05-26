@@ -11,13 +11,8 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
-  imports: [
-    BrowserModule,
-    FormsModule,
-    AppRoutingModule,
-  ],
+  imports: [BrowserModule, FormsModule, RouterModule, AppRoutingModule],
   declarations: [AppComponent, HomeComponent, AboutComponent, ContactComponent],
-  exports: [RouterModule],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
