@@ -10,10 +10,7 @@ const myRoutes: Routes = [
     redirectTo: '/home',
     pathMatch: 'full',
   },
-  {
-    path: 'home',
-    component: HomeComponent,
-  },
+
   {
     path: 'about',
     component: AboutComponent,
