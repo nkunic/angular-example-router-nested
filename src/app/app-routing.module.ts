@@ -6,6 +6,10 @@ import { HomeComponent } from './home/home.component';
 
 const myRoutes: Routes = [
   {
+    path: 'home',
+    component: HomeComponent,
+  },
+  {
     path: '',
     redirectTo: '/home',
     pathMatch: 'full',
