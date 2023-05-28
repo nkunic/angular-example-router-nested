@@ -1,12 +1,7 @@
 .back-link {
-  color: white;
-  border-width: 1px;
-  border-style: solid;
-  border-color: #04aa6d;
-  background-color: #04aa6d;
-  cursor: pointer;
+  color: black;
+  text-decoration: none;
   &:hover {
-    border-color: #aa048e;
-    background-color: #aa048e;
+    color: #04aa6d;
   }
 }
